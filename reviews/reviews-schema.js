@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
 const reviewsSchema = mongoose.Schema({
-                                          movieID: String,
+                                          albumID: String,
                                           postedBy: {
                                               userID: String
                                           },

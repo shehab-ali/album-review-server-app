@@ -11,8 +11,8 @@ const usersSchema = mongoose.Schema({
                                             enum: ['USER', 'REVIEWER', 'ADMIN'],
                                             default: 'USER'
                                         },
-                                        likedMovies: [{type: String, default: []}],
-                                        dislikedMovies: [{type: String, default: []}],
+                                        likedAlbums: [{type: String, default: []}],
+                                        dislikedAlbums: [{type: String, default: []}],
                                     }, {collection: 'users'});
 
 export default usersSchema;

@@ -40,7 +40,6 @@ const logout = (req, res) => {
     res.sendStatus(200);
 }
 
-
 const findUsers = (req, res) => {
     res.json(users);
 }
