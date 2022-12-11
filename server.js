@@ -22,7 +22,7 @@ const CONNECTION_STRING =  'mongodb://localhost:27017/albumReviewServer'
 mongoose.connect('mongodb+srv://shehab:shehab@cluster0.hctruag.mongodb.net/?retryWrites=true&w=majority');
 app.use(cors({
                  credentials: true,
-                 origin: 'http://localhost:3000'
+                 origin: 'https://album-review-app.netlify.app/'
              }));
 
 app.use(session({
